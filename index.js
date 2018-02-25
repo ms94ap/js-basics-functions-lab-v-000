@@ -6,3 +6,7 @@
     return 42 - pickNum
   }
  }
+
+function distanceFromHqInFeet(num) {
+  return distanceFromHqInFeet(num) * 264 
+}
