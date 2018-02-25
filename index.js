@@ -1,12 +1,14 @@
 // Code your solution in this file!
- function distanceFromHqInBlocks(pickNum) {
-  if (pickNum > 42) {
-    return pickNum - 42
+ function distanceFromHqInBlocks(blockNum) {
+  if (blockNum > 42) {
+    return blockNum - 42
   } else {
-    return 42 - pickNum
+    return 42 - blockNum
   }
  }
 
-function distanceFromHqInFeet(num) {
-  return distanceFromHqInBlocks(num) * 264
+function distanceFromHqInFeet(blockNum) {
+  return distanceFromHqInBlocks(blockNum) * 264
 }
+
+function distanceTravelledInFeet()
