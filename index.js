@@ -1,4 +1,5 @@
 // Code your solution in this file!
- function distanceFromHqInBlocks(distance) {
-   return distance = 1
+ function distanceFromHqInBlocks(pickNum) {
+  //  if (pickNum === 1)
+  //  return pickNum
  }
